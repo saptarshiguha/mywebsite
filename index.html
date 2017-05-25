@@ -1,0 +1,17 @@
+---
+layout: indexlayout
+title: aajikaali, delayed indulgence.
+---
+
+<img id="bottomlogo" width="30%" src = "{{ site.url }}/images/058666CalviHobbes.png">
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <span class="postdate">{{ post.date | date: "%b %d, %Y" }}</span>
+    <a id="posttit" href="{{site.mybase}}{{ post.url }}">{{ post.title }}</a>
+    <div class="excerpt"> {{ post.excerpt }}  </div>
+  </li>
+  {% endfor %}
+</ul>
+

@@ -1,0 +1,50 @@
+---
+layout: default3
+---
+<div id="post">
+{{ content }}
+ <br>
+</div>
+
+
+
+<div class="row text-center">
+  <div id="direction">
+    {% if page.previous %}
+      <span class="previous-link" style='font-size:75%;'>
+         <a style='text-decoration: none;border-bottom:none;' rel="prev" href="{{site.url}}/{{ page.previous.url }}">Previous</a>
+      </span>
+    {% endif %}
+    {% if page.next %}
+       <span class="next-link"  style='font-size:75%;'>
+         <a  style='text-decoration:none;border-bottom:none;'  rel="next" href="{{site.url}}/{{ page.next.url }}">Next</a>
+       </span>
+    {% endif %}
+  </div>
+</div>
+
+
+<div class="row">
+   <div class="col-md-2"></div>
+   <div class="col-sm-8">
+     <footer id="disqus_thread">
+       <!-- {% include disqus.html %} -->
+    </footer>
+  </div>
+</div>
+
+<script>
+ $(document).ready(function() {
+   $("a[href*='docs.google.com/'],a[href*='.png'],a[href*='.jpg']").attr('rel', 'gallery').fancybox({
+     padding:5,margin:5,aspectRatio:true,
+     prevEffect	: 'none',
+     nextEffect	: 'none',
+     type: "image"
+   });
+     $('tr').parent('thead').parent('table').addClass('table table-condensed');
+   console.log("FOOOO");
+ })
+</script>
+
+
+

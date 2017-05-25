@@ -1,0 +1,52 @@
+---
+layout: default
+---
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+   <script src="{{ site.url }}/js/fleximage/jquery.flex-images.js"></script>
+   <link rel="stylesheet" href="{{ site.url }}/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+   <script type="text/javascript" src="{{ site.url }}/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Latest compiled and minified CSS -->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen, projection"/>
+<link rel="stylesheet" href="{{ site.url }}/js/fleximage/jquery.flex-images.css"/>
+<link rel="stylesheet" href="{{ site.url }}/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ site.url }}/js/fancybox/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+
+    
+<div id="post">
+{{ content }}
+  <br>
+  <br>
+
+<script>
+   $(document).ready(function() {
+	   $("a[href*='docs.google.com/'],a[href*='.png'],a[href*='.jpg']").attr('rel', 'gallery').fancybox({
+	       padding:5,margin:5,aspectRatio:true,
+	       prevEffect	: 'none',
+	       nextEffect	: 'none',
+               type: "image"
+           });
+       $('tr').parent('thead').parent('table').addClass('table table-condensed');
+       console.log("FOOOO");
+   })
+</script>
+
+</div>
+
+<!- see http://stackoverflow.com/questions/12476701/fancybox-not-working-with-images-from-twitter-api -->
+    {% if page.previous %}
+    <span class="previous-link" style='font-size:75%;'>
+      <a rel="prev" href="{{ site.url}}/{{ page.previous.url }}">Previous</a>
+    </span>
+    {% endif %}
+    {% if page.next %}
+    <span class="next-link"  style='font-size:75%;'>
+      <a rel="next" href="{{ site.url }}/{{ page.next.url }}">Next</a>
+    </span>
+    {% endif %}
+
+<footer id="disqus_thread">
+    {% include disqus.html %}
+</footer>

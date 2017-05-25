@@ -1,0 +1,257 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+body {
+  height: 100%;
+  background-color:#FFFFFF;
+  width: 100%;
+  font-family: 'Fira Sans',georgia,serif;
+  font-size: 18.34px ;
+  line-height: 100%;
+}
+
+iframe {
+  text-align:center;
+  display:inline;
+}
+
+.bannerimg {
+  max-width:3000px;
+  width: 100%;
+  vertical-align: inherit;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+}
+
+
+h1,h2, h3, h4, h5, h6 {
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+  font-size: 150%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  color: #000;
+  text-rendering: optimizeLegibility: ;
+}
+h3 {
+  font-size: 130%;
+}
+h1 {
+    color: #D94F29;
+    font-size:180%;
+    margin-bottom: 0em;
+    line-height:1em;
+    font-weight:bold;
+    padding-bottom:0em;
+}
+p {
+  text-align: justify;    
+//  text-justify: inter-word;   
+}
+
+a,a:link,a:visited {
+    color: black;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+a:hover  {
+    color: #E68415;
+    text-decoration:bold;
+}
+
+#maintitle {
+    color:#000;
+    font-size:48px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+#maintitle a{
+    border-bottom: none;   
+    line-height:140%;
+}
+.title {
+    font-size:12px;
+    color: #888888;
+    font-family: 'Domine', georgia, serif;
+    text-align:right;
+    margin-bottom:1.5em;
+}
+.title a {
+    border-bottom:none;
+    font-family: 'Domine', georgia, serif;
+}
+.title a:hover {
+     color: #E68415;
+}
+#spaced {
+    padding-bottom:0.5em;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+
+ul.posts {
+  margin-bottom: 2em;
+  display:block;
+}
+
+ul.posts li {
+  line-height: 1.5em;
+  padding-bottom: 1em;
+  display:block;
+}
+
+ul.posts a {
+  font-family: 'Domine', georgia, serif;
+  font-style:normal;
+  font-size:14pt;
+}
+
+ul.posts a:hover {
+  color: #E68415;
+}
+ul.posts span {
+  color: #999;
+}
+
+#post {
+    font-family: 'Fira Sans',georgia,serif;
+    font-size: 17px ;
+    font-weight: 400;
+}
+
+
+
+.excerpt {
+    font-family: 'Cambo',georgia,serif;
+    color:#000;
+    display:inline;
+    font-size:12pt;
+}
+
+
+.footer {
+    float:right;
+    font-size: 80%;
+    color: #666;
+    margin-top: 3.2em;
+  }
+
+.footer  img {
+    border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#post {
+
+}
+
+  /* standard */
+#markdown-toc {
+                font-size:80%;
+                padding:0.5em;
+                
+                }
+#markdown-toc a{
+                 color: #8085C1;
+                 border-bottom: none;
+               }
+#markdown-toc a:hover{
+                 color: #E68415;
+               }
+
+.linenodiv {
+    border-right: 1px solid #ddd;
+    padding-right: 4px;
+}
+
+#post code {
+    padding-left: 0.5em;
+    padding:0;
+    display:inline-block;
+    font-weight:normal;
+    color: inherit;
+    background-color:inherit;
+    overflow: inherit;
+    border:none;
+}
+
+#post pre{
+    padding-left: 0.5em;
+    font-size: 80%;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:0;
+    margin-bottom:0.8em;
+    background:white;
+    border:0px;
+}
+
+#post code {
+    border: none;
+    font-size: 90%;
+}
+
+
+#post p {
+      line-height: 26px;
+}
+
+#post ul,
+#post ol {
+  margin-left: 1.35em;
+}
+
+.dsq-comment {
+               font-size:0.6em;
+               }
+
+/* For centering images */
+
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin-right:0px;
+}
+
+.poem p {
+  font-family: 'Domine', georgia, serif;
+  font-size:90%;
+  line-height: 1.7em !important;
+  padding-left:1.2em;
+}
+
+.tile {
+  margin-top:3em;
+  margin-bottom:3em;
+}
+.tile a {
+  border-bottom:0 !important;
+}
+
+.tile img {
+  max-width:100%;
+  padding:0.5em;
+}
+
+.story {
+  margin-top:1.25em;
+  margin-bottom:1.25em;
+}

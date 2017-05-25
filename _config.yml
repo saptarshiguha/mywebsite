@@ -1,0 +1,39 @@
+markdown: kramdown
+rouge: true
+future: true
+lsi: false
+
+extensions:
+ - autolink      # greedily urlify links
+ - footnotes     # footnotes
+ - smart         # typographic substitutions with SmartyPants
+
+author: Saptarshi Guha
+username: saptarshiguha
+email: saptarshi.guha@gmail.com
+
+accounts:
+    github: https://github.com/saptarshiguha
+    linkedin: http://linkedin.com/saptarshiguha
+    google: https://plus.google.com/115887938173387570339/
+
+name: aajikali
+description: that often thought yet rarely written
+baseurl: /blog
+#url: https://people.mozilla.com/~sguha/blog
+url: https://saptarshiguha.github.io/
+#url: /Users/sguha/saptarshiguha.github.io/_site/
+mybase: ./
+
+tags:
+- jekyll
+- code
+
+syntax_highlighter: coderay
+
+kramdown:
+   syntax_highlighter: rouge
+   toc_levels: 2..6
+   syntax_highlighter_opts:
+        line_numbers: false
+       

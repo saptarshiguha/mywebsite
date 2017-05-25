@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Saptarshi Guha" />
+  <meta name="viewport" content="width=320, user-scalable=yes initial-scale=0.7">
+   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+         crossorigin="anonymous">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"> </script>
+   <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" />
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="{{ site.url }}/css/journal.css" type="text/css" media="screen, projection"/>
+   <link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+   <link rel="stylesheet" href="{{ site.url }}/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+   <!-- mathjax config similar to math.stackexchange -->
+   <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$']],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+    });
+   </script>
+
+   
+   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+   <script src="{{ site.url }}/js/fleximage/jquery.flex-images.js"></script>
+   <script type="text/javascript" src="{{ site.url }}/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+   <link href='https://people.mozilla.com/~sguha/blog/feed.xml'  rel='alternate' type='application/atom+xml'>
+
+</head>
+<body>
+<div class="container-fluid">
+
+  <div class="row" style="margin-top:1em;">
+    <div class="col-xs-6 col-xs-offset-3 row-centered">
+      <div class="col-md-4 col-md-offset-4  col-xs-8 col-xs-offset-2 row-centered">
+        <div class="maintitle">
+          <figure class="figure">
+            <a href="{{site.url}}"> <img src="{{ site.url}}/css/log1.png" class="figure-img img-fluid img-rounded" alt="aajikali"> </a>
+          </figure>
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+    <!-- The content is contained inside it's own div which inside body -->
+  {{content}}
+</div>
+</body>
+</html>

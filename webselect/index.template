@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    {codeins}
+    
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <textarea id="filenamelist" rows="10"></textarea>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-12">
+          <button id="gen" type="button" class="btn btn-primary">Generate</button>
+        </div>
+      </div>
+      
+      <div class="row">
+            <div id='foo'>
+              {SUBS}
+            </div>
+        </div>
+
+        <hr>
+    </div>
+    <!-- /.container -->
+
+
+</body>
+
+</html>

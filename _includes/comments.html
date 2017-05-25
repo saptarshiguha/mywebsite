@@ -1,0 +1,49 @@
+<div id="comments" class="comments">
+  {% if page.comments %}
+  <ul>
+    {% for comment in page.comments %}
+    <li>
+      <div class="comment-author">
+        <img class="comment-avatar" src="https://secure.gravatar.com/avatar/{{ comment.mail_hash }}?s=60&amp;d=mm" alt="{{ comment.name }}">
+        {% if comment.homepage %}
+        <a href="{{ comment.homepage }}" class="commenter">{{ comment.name }}</a>
+        {% else %}
+        <span class="commenter">{{ comment.name }}</span>
+        {% endif %}
+      </div>
+      <div class="comment-meta">
+        <i class="fa fa-calendar"></i>
+        <time datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date_to_long_string }}</time>
+      </div>
+      <div class="comment-content">
+        {{ comment.output }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <form action="" id="commentform" class="comment-form" novalidate>
+    <p class="comment-notes">
+      <span id="email-notes">Your email address will not be published.</span> Required fields are marked&nbsp;<span class="required">*</span>.
+    </p>
+    <p class="comment-form-author">
+      <label for="author">name <span class="required">*</span></label>
+      <input id="commentform-author" name="author" type="text" value="" size="30" aria-required='true' required='required' />
+    </p>
+    <p class="comment-form-email">
+      <label for="email">email <span class="required">*</span></label>
+      <input id="commentform-email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' />
+    </p>
+    <p class="comment-form-url">
+      <label for="url">website</label>
+      <input id="commentform-url" name="url" type="url" value="" size="30" />
+    </p>
+    <p class="comment-form-comment">
+          Comment (Markdown supported) <span class="required">*</span></br/>
+          <textarea id="commentform-comment" name="comment" cols="45" rows="8" aria-required="true" required="required"></textarea></br>
+      <input name="submit" type="submit" id="commentform-submit" class="btn" value="Submit" />
+      <input type='hidden' id="commentform-post-id" name="post-id" value="{{ page.id }}" />
+    </p>
+  </form>
+  <div id="commentform-alert" class="comment-form-alert"></div>
+</div>

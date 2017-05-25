@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Saptarshi Guha" />
+   <meta name="viewport" content="width=320, user-scalable=yes initial-scale=0.7">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" />
+   <link rel="stylesheet" href="{{ site.url }}/css/index.css" type="text/css" media="screen, projection"/>
+
+<!-- Typography -->
+<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+<link href='https://people.mozilla.com/~sguha/blog/feed.xml'  rel='alternate' type='application/atom+xml'>
+</head>
+<body>
+
+<div class="container-fluid">  
+  <div class="row row-centered" style="margin-top:3em; overflow-x:visible;">
+    <div class="col-xs-12 col-md-8 col-offset-2 col-centered" style='overflow-x:visible;'>
+      <div class="title">
+        <a id="maintitle" href="{{site.url}}">aajikali</a>
+        <br/>
+        <a href="{{site.url}}/resources/saptarshi_guha_resume.pdf">Resume</a> |
+        <a href="http://github.com/saptarshiguha/">GitHub</a> |
+        <a href="http://www.linkedin.com/in/saptarshiguha/"">LinkedIn</a> |
+        <a href="http://gpg.mozilla.org/pks/lookup?op=vindex&search=0xE9781A900BC5F7AC"><code>0x0BC5F7AC</code></a> |
+        <a href='https://github.com/saptarshiguha.keys'>GitHub Public Key</a>
+        &nbspData&nbspScientist&nbspat&nbspFirefox&nbspMozilla 
+      </div>
+    </div>
+  </div>
+  
+  <div class="row" style="overflow-x:visible;">
+    <div class="col-xs-12 col-md-8 col-md-offset-2" style="overflow-x:visible;">
+      {{content}}
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>

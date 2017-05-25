@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin-right:0px;
+}
+
+
+html{ height:100%; }
+body {
+  height: 100%;
+  background-color:#FFFFFF;
+  width:auto;
+  font-family: 'Fira Sans',georgia,serif;
+  font-size: 18.34px ;
+  line-height: 100%;
+  margin: 10px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+#bottomlogo {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  pointer-events: none;
+}
+
+
+.posts a {
+  border-bottom: none;
+    text-decoration: none;   
+}
+
+a:hover  {
+    color: #E68415;
+    text-decoration:bold;
+}
+
+
+#maintitle {
+    color:#000;
+    font-size:48px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+#maintitle a{
+    border-bottom: none;   
+    line-height:140%;
+}
+
+
+#spaced {
+    padding-bottom:0.5em;
+}
+
+.title {
+    font-size:12px;
+    color: #888888;
+    font-family: georgia, serif;
+    text-align:right;
+    margin-bottom:1.5em;
+}
+
+.title a {
+    border-bottom:none;
+    font-family: georgia, serif;
+}
+
+.title a:hover {
+     color: #E68415;
+}
+
+
+.title a {
+    color: #222;
+    text-decoration: none;
+}
+
+
+table {
+        font-size: inherit;
+        font: 100%;
+        }
+
+ul.posts {
+           margin-bottom: 2em;
+           display:block;
+           }
+
+ul.posts li {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+              display:block;
+              }
+ul.posts a {
+    font-family: georgia, serif;
+    font-style:normal;
+    font-size:14pt;
+}
+
+ul.posts a:hover {
+  color: #E68415;
+}
+ul.posts span {
+  color: #999;
+}
+
+.excerpt {
+    font-family: georgia,serif;
+    color:#000;
+    display:inline;
+    font-size:12pt;
+}
+#posttit {
+    font-family: "Courier";
+    font-size:11pt;
+    color: #000000;
+    font-weight:bold;
+}    
+.postdate {
+    font-family: "Courier";
+    font-size:10pt;
+    margin-right:1em;
+}

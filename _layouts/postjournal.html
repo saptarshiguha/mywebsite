@@ -1,0 +1,42 @@
+---
+layout: defaultjournal
+---
+<div id="post">
+{{ content }}
+ <br>
+</div>
+
+
+
+<div class="row text-center " style="margin-bottom:0.5em;">
+  <div id="direction">
+    {% if page.previous %}
+      <span class="previous-link" style='font-size:75%;'>
+         <a style='text-decoration: none;border-bottom:none;' rel="prev" href="{{site.url}}/{{ page.previous.url }}">Older</a>
+      </span>
+    {% endif %}
+    {% if page.next %}
+       <span class="next-link"  style='font-size:75%;'>
+         <a  style='text-decoration:none;border-bottom:none;'  rel="next" href="{{site.url}}/{{ page.next.url }}">&nbsp&nbspNewer</a>
+       </span>
+    {% endif %}
+  </div>
+</div>
+
+
+
+<script>
+ $(document).ready(function() {
+   $("a[href*='drive.google.com/'],a[href*='docs.google.com/'],a[href*='.png'],a[href*='.jpg']").attr('rel', 'gallery').fancybox({
+     padding:5,margin:5,aspectRatio:true,
+     prevEffect	: 'none',
+     nextEffect	: 'none',
+     type: "image"
+   });
+     $('tr').parent('thead').parent('table').addClass('table table-condensed');
+   console.log("FOOOO");
+ })
+</script>
+
+
+
