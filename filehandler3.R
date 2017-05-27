@@ -19,7 +19,7 @@ RM <- function(s){
 ## if you see different because this system was only implemented 02/21/2017 onwrds
 
 pto <- "2017-05-26"
-system(sprintf("python ~/saptarshiguha.github.io/imageFileRep.py %s", pto))
+system(sprintf("python ./imageFileRep.py %s", pto))
 pat <- "/tmp/images.csv"
 files <- fread(pat)
 files$id <- 1:nrow(files)
