@@ -18,7 +18,7 @@ RM <- function(s){
 ## pto is of the form 'YYYY-MM-DD'
 ## if you see different because this system was only implemented 02/21/2017 onwrds
 
-pto <- "2017-05-08"
+pto <- "2017-05-26"
 system(sprintf("python ~/saptarshiguha.github.io/imageFileRep.py %s", pto))
 pat <- "/tmp/images.csv"
 files <- fread(pat)
