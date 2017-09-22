@@ -1,5 +1,11 @@
 ---
 layout: postjournal
+title: 2017-09-15-When-the-wind-dont-move
+excerpt: To a restless 11 month old boy on a hot summers day
+tags: misc
+---
+---
+layout: postjournal
 title: When the wind dont move
 excerpt: A poem to tashi
 tags: misc
