@@ -1,5 +1,11 @@
 ---
 layout: postjournal
+title: When-the-wind-dont-move
+excerpt: ......
+tags: misc
+---
+---
+layout: postjournal
 title: When the wind dont move
 excerpt: A poem to tashi
 tags: misc
