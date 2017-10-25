@@ -21,8 +21,8 @@ It's also massively hot like 90f and am I exhausted. If he doesn't run a fever t
 In the picture below we see two new events. He stands and drinks from a bottle and of his own accord he hugs the supersized teddy Debarchana and jijo sent us.
 
 {% imgtile nc=1 w=12 %}
-https://drive.google.com/uc?id=0B6d70FmpKIi1SHIyOWJYai1CeG8
-https://drive.google.com/uc?id=0B6d70FmpKIi1Qkw1elFPMVMxakU
+https://drive.google.com/uc?id=0B6d70FmpKIi1cWdzVTJ6dkRxeEk
+https://drive.google.com/uc?id=0B6d70FmpKIi1bFV6WG5HSkRCYVE
 {% endimgtile %}
 
 Tashi is now beyond one year and he's grown so much! He has a steady routine of going to bed around 7pm, the nights are a bit better but he still wails in the night and comes into bed(but his night feeding is much less). He gets around 10-11 hours of sleep and wakes up to big grins and cuddles. Massive ones for Sheetal and some for me too:) and then he promptly tries to break my side clock, turn on the lights, play with the curtains and off he goes to the end of the bed to say hello to his grandmama (that said, I should eat my words. Today it took one and half hours for him to fall asleep. One and half hours. I can only hope things improve in 2018).
