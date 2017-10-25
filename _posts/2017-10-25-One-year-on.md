@@ -26,8 +26,11 @@ https://drive.google.com/uc?id=0B6d70FmpKIi1Qkw1elFPMVMxakU
 https://drive.google.com/uc?id=0B6d70FmpKIi1SHIyOWJYai1CeG8
 {% endimgtile %}
 
-Tashi is now beyond one year and he's grown so much! He has a steady routine of going to bed around 7pm, the nights are a bit better but he still wails in the night and comes into bed(but his night feeding is much less). He gets around 10-11 hours of sleep and wakes up to big grins and cuddles. Massive ones for Sheetal and some for me too:) and then he promptly tries to break my side clock, turn on the lights, play with the curtains and off he goes to the end of the bed to say hello to his grandmama.
+Tashi is now beyond one year and he's grown so much! He has a steady routine of going to bed around 7pm, the nights are a bit better but he still wails in the night and comes into bed(but his night feeding is much less). He gets around 10-11 hours of sleep and wakes up to big grins and cuddles. Massive ones for Sheetal and some for me too:) and then he promptly tries to break my side clock, turn on the lights, play with the curtains and off he goes to the end of the bed to say hello to his grandmama (that said, I should eat my words. Today it took one and half hours for him to fall asleep. One and half hours. I can only hope things improve in 2018).
+
+
 
 Loly says much to my disbelief that she only wants babies like him who are happy playing by themselves and don't cry when she leaves them. His energy is fantastic and he's been up today since 7am and doesn't look lies he fading (he napped for one hour). The pastime that holds his attention the most is putting lids back on bottles. In the park he loves the swing but I've noticed a new love for walking around the park (because why sit still when I can move?). He is immensely curious when other kids are around staring at them till I become uncomfortable!
+
 
 {% endjrnl %}
